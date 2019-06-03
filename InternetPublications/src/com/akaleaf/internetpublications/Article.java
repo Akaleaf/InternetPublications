@@ -15,7 +15,7 @@ public class Article extends Publication {
     
     public Article(String title, String author) {
     
-        this.title = title;
+        super.title = title;
         this.author = author;
     
     }
