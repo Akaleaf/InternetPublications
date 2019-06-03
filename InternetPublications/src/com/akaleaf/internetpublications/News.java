@@ -15,7 +15,7 @@ public class News extends Publication {
     
     public News(String title, String source) {
     
-        this.title = title;
+        super.title = title;
         this.source = source;
     
     }
